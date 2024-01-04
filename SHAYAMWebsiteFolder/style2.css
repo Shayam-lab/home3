@@ -1,0 +1,63 @@
+/*BACK UP CODE!!!!*/
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*THIS IS THE BACKGROUND IMAGE!*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("TEST.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh; /* Set the body height to 100% of the viewport height */
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.content {
+    padding: 20px;
+    color: #fff;
+}
+
+
+/*THIS IS THE NAVIGATION GRAPHICS*/
+
+.topnav {
+  text-align: center;
+}
+
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
